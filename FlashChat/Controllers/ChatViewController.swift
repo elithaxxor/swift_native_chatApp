@@ -59,7 +59,7 @@ class ChatViewController: UIViewController, UITableViewDelegate {
                 
                 K.userInfo.sendField: msgSender, // message literal oo
                 K.userInfo.bodyField: msgBody, // body text
-                K.userInfo.dateField: Date().timeIntervalSince1970 // datefield -> point of reference for message-array for ordering.
+                K.userInfo.dateField: Date().timeIntervalSince1970 
             ])
             { (error) in
                 if let e = error {
@@ -92,19 +92,21 @@ class ChatViewController: UIViewController, UITableViewDelegate {
                     if let snapshotDocuments = querySnapshot?.documents {
                         for d in snapshotDocuments {
                             let data = d.data()
-                            if let msgSender = data [K.name.senderField] // retrv declared username from memory
+                            if let msgSender = data [K.userInfo.sendField] // retrv declared username from memory
                                 as? String,
                                
-                                let msgBody = data[K.name.bodyField] as String { // retrv msg from fieldView and appends to messages array
-                                let newMsg=msg(sender: msgSender, body: msgBody)
-                                self.messages.append(newMessage)
+                                let msgBody = data[K.userInfo.bodyField] as? String { // retrv msg from fieldView and appends to messages array
+                                let newMsg = Message(sender: msgSender, body: msgBody) // calls message struct
+                                
+                                
+                                self.messages.append(newMsg)
                                 
                                 // async queue
                                 DispatchQueue.main.async {
                                     self.tableView.reloadData()
                                     // refresh feed after message recv.
                                     let indexPath = IndexPath(row: self.messages.count - 1, section: 0 )
-                                    self.tableView.scrollToView(at: indexPath, at: .top, animated: true)
+                                    self.tableView.scrollToRow(at: indexPath, at: .top, animated: true)
                                 }
                             }
                         }

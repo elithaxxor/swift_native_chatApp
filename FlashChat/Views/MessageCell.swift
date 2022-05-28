@@ -13,7 +13,6 @@ class MessageCell: UITableViewCell {
     // use this method to construct message cells
     
     @IBOutlet weak var msgBubble: UIView!
-    
     @IBOutlet weak var label: UILabel!
     
     @IBOutlet var leftImgMsg: UIImageView!

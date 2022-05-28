@@ -7,31 +7,15 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		6594940C280FC23B0008B955 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6594940B280FC23B0008B955 /* AppDelegate.swift */; };
-		6594940E280FC23B0008B955 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6594940D280FC23B0008B955 /* SceneDelegate.swift */; };
 		65949423280FC31C0008B955 /* MessageCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 65949422280FC31C0008B955 /* MessageCell.swift */; };
 		65949428280FC3C60008B955 /* ChatViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 65949427280FC3C60008B955 /* ChatViewController.swift */; };
-		6594942A280FC3EF0008B955 /* LoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 65949429280FC3EF0008B955 /* LoginViewController.swift */; };
-		6594942C280FC44C0008B955 /* RegisterViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6594942B280FC44C0008B955 /* RegisterViewController.swift */; };
-		6594942E280FC4780008B955 /* WelcomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6594942D280FC4780008B955 /* WelcomeViewController.swift */; };
-		6594944A280FC88F0008B955 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6594943A280FC88F0008B955 /* AppDelegate.swift */; };
-		6594944B280FC88F0008B955 /* ChatViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6594943C280FC88F0008B955 /* ChatViewController.swift */; };
-		6594944C280FC88F0008B955 /* WelcomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6594943D280FC88F0008B955 /* WelcomeViewController.swift */; };
 		6594944D280FC88F0008B955 /* LoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6594943E280FC88F0008B955 /* LoginViewController.swift */; };
 		6594944E280FC88F0008B955 /* RegisterViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6594943F280FC88F0008B955 /* RegisterViewController.swift */; };
-		65949451280FC88F0008B955 /* MessageCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 65949443280FC88F0008B955 /* MessageCell.swift */; };
 		65949453280FC88F0008B955 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 65949445280FC88F0008B955 /* SceneDelegate.swift */; };
-		65949467280FD1E50008B955 /* Constants.swift in Sources */ = {isa = PBXBuildFile; fileRef = 65949466280FD1E50008B955 /* Constants.swift */; };
-		65B5A47C280FEB9B00150157 /* Message.swift in Sources */ = {isa = PBXBuildFile; fileRef = 65B5A47B280FEB9B00150157 /* Message.swift */; };
 		65DD830428100C1A0099FBAE /* Constants.swift in Sources */ = {isa = PBXBuildFile; fileRef = 65DD6C1A28100C0E0099FBAE /* Constants.swift */; };
 		65DD830528100C1A0099FBAE /* Message.swift in Sources */ = {isa = PBXBuildFile; fileRef = 65DD6C2B28100C0E0099FBAE /* Message.swift */; };
 		65DD830628100C1A0099FBAE /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 65DD6C5128100C0E0099FBAE /* AppDelegate.swift */; };
-		65DD830728100C1A0099FBAE /* ChatViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 65DD6C5528100C0E0099FBAE /* ChatViewController.swift */; };
 		65DD830828100C1A0099FBAE /* WelcomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 65DD6C5628100C0E0099FBAE /* WelcomeViewController.swift */; };
-		65DD830928100C1A0099FBAE /* LoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 65DD6C5728100C0E0099FBAE /* LoginViewController.swift */; };
-		65DD830A28100C1A0099FBAE /* RegisterViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 65DD6C5828100C0E0099FBAE /* RegisterViewController.swift */; };
-		65DD830B28100C1A0099FBAE /* MessageCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 65DD6C5D28100C0E0099FBAE /* MessageCell.swift */; };
-		65DD830C28100C1A0099FBAE /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 65DD6C5F28100C0E0099FBAE /* SceneDelegate.swift */; };
 		65DD830D28100C1A0099FBAE /* idna.c in Sources */ = {isa = PBXBuildFile; fileRef = 65DD6C7328100C0F0099FBAE /* idna.c */; };
 		65DD830E28100C1A0099FBAE /* timer.c in Sources */ = {isa = PBXBuildFile; fileRef = 65DD6C7428100C0F0099FBAE /* timer.c */; };
 		65DD830F28100C1A0099FBAE /* uv-common.c in Sources */ = {isa = PBXBuildFile; fileRef = 65DD6C7528100C0F0099FBAE /* uv-common.c */; };
@@ -1749,6 +1733,13 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
+		653A3FAE28102BAC0041DEF9 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 65DD6C6228100C0E0099FBAE /* Pods.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = A8E950A16D00F649C54FFB30F81D7842;
+			remoteInfo = IQKeyboardManagerSwift;
+		};
 		65DD82E028100C1A0099FBAE /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = 65DD6C6228100C0E0099FBAE /* Pods.xcodeproj */;
@@ -1878,6 +1869,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		653A3FB028102BC50041DEF9 /* FlashChat */ = {isa = PBXFileReference; lastKnownFileType = folder; path = FlashChat; sourceTree = "<group>"; };
 		65949408280FC23B0008B955 /* FlashChat.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = FlashChat.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		6594940B280FC23B0008B955 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		6594940D280FC23B0008B955 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -6807,9 +6799,8 @@
 		65DD82C628100C190099FBAE /* utility.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = utility.h; sourceTree = "<group>"; };
 		65DD82C728100C190099FBAE /* README.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
 		65DD82C828100C190099FBAE /* FlashChat.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; path = FlashChat.xcodeproj; sourceTree = "<group>"; };
-		65DD82CB28100C190099FBAE /* Podfile */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = Podfile; sourceTree = "<group>"; };
+		65DD82CB28100C190099FBAE /* Podfile */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = Podfile; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		65DD82CC28100C190099FBAE /* Podfile.lock */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = Podfile.lock; sourceTree = "<group>"; };
-		65E96CBE2810124F0063482F /* GoogleService-Info (3).plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info (3).plist"; sourceTree = "<group>"; };
 		C22308A8E94204B5A84E8595 /* Pods-FlashChat.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-FlashChat.release.xcconfig"; path = "Target Support Files/Pods-FlashChat/Pods-FlashChat.release.xcconfig"; sourceTree = "<group>"; };
 		D6FC9702F63B9270B6E19DAC /* Pods-FlashChat.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-FlashChat.debug.xcconfig"; path = "Target Support Files/Pods-FlashChat/Pods-FlashChat.debug.xcconfig"; sourceTree = "<group>"; };
 		DB7BBC897B516308A7333266 /* Pods_FlashChat.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_FlashChat.framework; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -6858,7 +6849,7 @@
 		6594940A280FC23B0008B955 /* FlashChat */ = {
 			isa = PBXGroup;
 			children = (
-				65E96CBE2810124F0063482F /* GoogleService-Info (3).plist */,
+				653A3FB028102BC50041DEF9 /* FlashChat */,
 				65DD6C13280FFDBB0099FBAE /* Models */,
 				65949455280FCB3C0008B955 /* AppIcons */,
 				65949433280FC88F0008B955 /* FlashChat */,
@@ -7273,7 +7264,6 @@
 		65DD6C6328100C0E0099FBAE /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				65DD82E128100C1A0099FBAE /* abseil */,
 				65DD82E328100C1A0099FBAE /* BoringSSL-GRPC */,
 				65DD82E528100C1A0099FBAE /* CLTypingLabel */,
 				65DD82E728100C1A0099FBAE /* FirebaseAuth */,
@@ -7286,11 +7276,13 @@
 				65DD82F528100C1A0099FBAE /* gRPC-C++-gRPCCertificates-Cpp */,
 				65DD82F728100C1A0099FBAE /* gRPC-Core */,
 				65DD82F928100C1A0099FBAE /* GTMSessionFetcher */,
+				653A3FAF28102BAC0041DEF9 /* IQKeyboardManagerSwift */,
 				65DD82FB28100C1A0099FBAE /* leveldb-library */,
 				65DD82FD28100C1A0099FBAE /* Libuv-gRPC */,
 				65DD82FF28100C1A0099FBAE /* nanopb */,
 				65DD830128100C1A0099FBAE /* Pods-FlashChat */,
 				65DD830328100C1A0099FBAE /* PromisesObjC */,
+				65DD82E128100C1A0099FBAE /* absl.framework */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -19609,10 +19601,17 @@
 /* End PBXProject section */
 
 /* Begin PBXReferenceProxy section */
-		65DD82E128100C1A0099FBAE /* abseil */ = {
+		653A3FAF28102BAC0041DEF9 /* IQKeyboardManagerSwift */ = {
 			isa = PBXReferenceProxy;
 			fileType = wrapper.framework;
-			name = abseil;
+			name = IQKeyboardManagerSwift;
+			path = IQKeyboardManagerSwift.framework;
+			remoteRef = 653A3FAE28102BAC0041DEF9 /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		65DD82E128100C1A0099FBAE /* absl.framework */ = {
+			isa = PBXReferenceProxy;
+			fileType = wrapper.framework;
 			path = absl.framework;
 			remoteRef = 65DD82E028100C1A0099FBAE /* PBXContainerItemProxy */;
 			sourceTree = BUILT_PRODUCTS_DIR;
@@ -19957,7 +19956,6 @@
 				65DD885A28100C220099FBAE /* x_crl.c in Sources */,
 				65DD891B28100C240099FBAE /* GULHeartbeatDateStorageUserDefaults.m in Sources */,
 				65DD839028100C1A0099FBAE /* FIRUserMetadata.m in Sources */,
-				65949467280FD1E50008B955 /* Constants.swift in Sources */,
 				65DD864228100C1E0099FBAE /* iomgr_posix_cfstream.cc in Sources */,
 				65DD894028100C250099FBAE /* dumpfile.cc in Sources */,
 				65DD885B28100C220099FBAE /* x_sig.c in Sources */,
@@ -20024,7 +20022,6 @@
 				65DD867B28100C1F0099FBAE /* local_transport_security.cc in Sources */,
 				65DD892628100C240099FBAE /* logging.cc in Sources */,
 				65DD832228100C1A0099FBAE /* getnameinfo.c in Sources */,
-				6594944A280FC88F0008B955 /* AppDelegate.swift in Sources */,
 				65DD88EE28100C240099FBAE /* server_cc.cc in Sources */,
 				65DD834928100C1A0099FBAE /* FBLPromise+Testing.m in Sources */,
 				65DD85CC28100C1E0099FBAE /* parse_address.cc in Sources */,
@@ -20220,7 +20217,6 @@
 				65DD881928100C220099FBAE /* v3_enum.c in Sources */,
 				65DD841328100C1B0099FBAE /* dynamic_filters.cc in Sources */,
 				65DD84A628100C1C0099FBAE /* endpoint.upbdefs.c in Sources */,
-				6594942E280FC4780008B955 /* WelcomeViewController.swift in Sources */,
 				65DD877F28100C210099FBAE /* tasn_new.c in Sources */,
 				65DD88B428100C230099FBAE /* t1_enc.cc in Sources */,
 				65DD871828100C200099FBAE /* server_timestamp_util.cc in Sources */,
@@ -20241,7 +20237,6 @@
 				65DD873C28100C200099FBAE /* remote_objc_bridge.cc in Sources */,
 				65DD88B028100C230099FBAE /* d1_srtp.cc in Sources */,
 				65DD887228100C230099FBAE /* poly1305.c in Sources */,
-				6594942A280FC3EF0008B955 /* LoginViewController.swift in Sources */,
 				65DD837128100C1A0099FBAE /* CLTypingLabel-dummy.m in Sources */,
 				65DD854428100C1D0099FBAE /* rls.upb.c in Sources */,
 				65DD885C28100C220099FBAE /* name_print.c in Sources */,
@@ -20377,7 +20372,6 @@
 				65DD879128100C210099FBAE /* tasn_typ.c in Sources */,
 				65DD84F528100C1C0099FBAE /* quic_config.upb.c in Sources */,
 				65DD889E28100C230099FBAE /* ec_derive.c in Sources */,
-				65DD830928100C1A0099FBAE /* LoginViewController.swift in Sources */,
 				65DD881228100C220099FBAE /* cmac.c in Sources */,
 				65DD881E28100C220099FBAE /* pcy_lib.c in Sources */,
 				65DD843D28100C1B0099FBAE /* grpc_ares_wrapper.cc in Sources */,
@@ -20471,7 +20465,6 @@
 				65DD85DD28100C1E0099FBAE /* api_trace.cc in Sources */,
 				65DD83A028100C1A0099FBAE /* FIRAuthProtoStartMFAPhoneRequestInfo.m in Sources */,
 				65DD84F128100C1C0099FBAE /* udp_listener_config.upb.c in Sources */,
-				6594944C280FC88F0008B955 /* WelcomeViewController.swift in Sources */,
 				65DD86A828100C1F0099FBAE /* sorted_container.cc in Sources */,
 				65DD875328100C200099FBAE /* FIRFirestore.mm in Sources */,
 				65DD83B128100C1B0099FBAE /* FIRVerifyPhoneNumberRequest.m in Sources */,
@@ -20556,7 +20549,6 @@
 				65DD848528100C1C0099FBAE /* stats.upbdefs.c in Sources */,
 				65DD88E128100C240099FBAE /* server_posix.cc in Sources */,
 				65DD877E28100C210099FBAE /* f_int.c in Sources */,
-				6594942C280FC44C0008B955 /* RegisterViewController.swift in Sources */,
 				65DD860428100C1E0099FBAE /* socket_windows.cc in Sources */,
 				65DD83CD28100C1B0099FBAE /* NSData+FIRBase64.m in Sources */,
 				65DD83F028100C1B0099FBAE /* rune.cc in Sources */,
@@ -20616,7 +20608,6 @@
 				65DD88FD28100C240099FBAE /* tls_certificate_verifier.cc in Sources */,
 				65DD86EA28100C200099FBAE /* memory_mutation_queue.cc in Sources */,
 				65DD896328100C250099FBAE /* str_split.cc in Sources */,
-				65DD830A28100C1A0099FBAE /* RegisterViewController.swift in Sources */,
 				65DD886B28100C230099FBAE /* tls_cbc.c in Sources */,
 				65DD836428100C1A0099FBAE /* GDTCORPlatform.m in Sources */,
 				65DD855528100C1D0099FBAE /* xds_certificate_provider.cc in Sources */,
@@ -20741,7 +20732,6 @@
 				65DD882828100C220099FBAE /* v3_purp.c in Sources */,
 				65DD878828100C210099FBAE /* a_enum.c in Sources */,
 				65DD841228100C1B0099FBAE /* client_channel_plugin.cc in Sources */,
-				6594940C280FC23B0008B955 /* AppDelegate.swift in Sources */,
 				65DD88E328100C240099FBAE /* server_builder.cc in Sources */,
 				65DD872A28100C200099FBAE /* query_listener_registration.cc in Sources */,
 				65DD865028100C1E0099FBAE /* tcp_server_utils_posix_common.cc in Sources */,
@@ -20883,7 +20873,6 @@
 				65DD843A28100C1B0099FBAE /* grpc_ares_wrapper_posix.cc in Sources */,
 				65DD831428100C1A0099FBAE /* process.c in Sources */,
 				65DD877028100C210099FBAE /* GTMSessionUploadFetcher.m in Sources */,
-				65DD830B28100C1A0099FBAE /* MessageCell.swift in Sources */,
 				65DD852828100C1D0099FBAE /* http.upb.c in Sources */,
 				65DD875E28100C200099FBAE /* FIRFieldPath.mm in Sources */,
 				65DD87E228100C210099FBAE /* e_des.c in Sources */,
@@ -21181,7 +21170,6 @@
 				65DD868C28100C1F0099FBAE /* alts_seal_privacy_integrity_crypter.cc in Sources */,
 				65DD834C28100C1A0099FBAE /* FBLPromise+All.m in Sources */,
 				65DD869028100C1F0099FBAE /* alts_crypter.cc in Sources */,
-				65949451280FC88F0008B955 /* MessageCell.swift in Sources */,
 				65DD834328100C1A0099FBAE /* FBLPromise+Timeout.m in Sources */,
 				65DD84F428100C1C0099FBAE /* api_listener.upb.c in Sources */,
 				65DD891A28100C240099FBAE /* GULAppEnvironmentUtil.m in Sources */,
@@ -21229,13 +21217,11 @@
 				65DD89B528100C260099FBAE /* raw_logging.cc in Sources */,
 				65DD851828100C1C0099FBAE /* cert.upb.c in Sources */,
 				65DD894A28100C250099FBAE /* cordz_info.cc in Sources */,
-				65DD830C28100C1A0099FBAE /* SceneDelegate.swift in Sources */,
 				65DD85D328100C1E0099FBAE /* lame_client.cc in Sources */,
 				65DD88DD28100C240099FBAE /* byte_buffer_cc.cc in Sources */,
 				65DD878328100C210099FBAE /* a_utf8.c in Sources */,
 				65DD852C28100C1D0099FBAE /* lrs.upb.c in Sources */,
 				65DD85D228100C1E0099FBAE /* byte_buffer_reader.cc in Sources */,
-				65B5A47C280FEB9B00150157 /* Message.swift in Sources */,
 				65DD844D28100C1B0099FBAE /* grpc_context.cc in Sources */,
 				65DD884028100C220099FBAE /* t_crl.c in Sources */,
 				65DD873E28100C200099FBAE /* grpc_unary_call.cc in Sources */,
@@ -21274,7 +21260,6 @@
 				65DD841028100C1B0099FBAE /* client_channel.cc in Sources */,
 				65DD847428100C1B0099FBAE /* secure_channel_create.cc in Sources */,
 				65DD84B028100C1C0099FBAE /* tls.upbdefs.c in Sources */,
-				6594944B280FC88F0008B955 /* ChatViewController.swift in Sources */,
 				65DD878D28100C210099FBAE /* a_d2i_fp.c in Sources */,
 				65DD898F28100C250099FBAE /* time_zone_impl.cc in Sources */,
 				65DD85BF28100C1D0099FBAE /* fake_credentials.cc in Sources */,
@@ -21356,7 +21341,6 @@
 				65DD846E28100C1B0099FBAE /* server_secure_chttp2.cc in Sources */,
 				65DD83D728100C1B0099FBAE /* FIROAuthProvider.m in Sources */,
 				65DD852B28100C1D0099FBAE /* cds.upb.c in Sources */,
-				65DD830728100C1A0099FBAE /* ChatViewController.swift in Sources */,
 				65DD89BC28100C260099FBAE /* low_level_alloc.cc in Sources */,
 				65DD872328100C200099FBAE /* document_snapshot.cc in Sources */,
 				65DD885628100C220099FBAE /* algorithm.c in Sources */,
@@ -21497,7 +21481,6 @@
 				65DD846228100C1B0099FBAE /* huffsyms.cc in Sources */,
 				65DD839C28100C1A0099FBAE /* FIRVerifyCustomTokenResponse.m in Sources */,
 				65DD89BA28100C260099FBAE /* spinlock_win32.inc in Sources */,
-				6594940E280FC23B0008B955 /* SceneDelegate.swift in Sources */,
 				65DD877128100C210099FBAE /* CLTypingLabel.swift in Sources */,
 				65DD860828100C1E0099FBAE /* ev_posix.cc in Sources */,
 				65DD85E128100C1E0099FBAE /* byte_buffer.cc in Sources */,

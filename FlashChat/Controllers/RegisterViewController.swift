@@ -15,9 +15,6 @@ class RegisterViewController: UIViewController {
     @IBOutlet var Pass: UITextField!
     
     @IBAction func registerPressed(_ sender: UIButton) {
-        
-        
-        
         if let email = Email.text, let password = Pass.text {
             
             Auth.auth().createUser(withEmail: email, password: password) { authResult, error in
@@ -26,7 +23,7 @@ class RegisterViewController: UIViewController {
                     print("Error in creating user (register view controler) \(e)")
                 }
                 else {
-                    self.performSegeue(withIdentifiier: "RegisterToChat", sender: self)
+                    self.performSegue(withIdentifier: "Register", sender: self)
                 }
             }
         }
